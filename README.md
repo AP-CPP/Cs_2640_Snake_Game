@@ -1,1 +1,1 @@
-# Cs_2640_Snake_Game
+# Goal: Creating a simple snake game that will use an ASCII grid to represent the map. The user will be able to control the snake enabling it to eat food and to grow, while trying to avoid crashing into walls or its own body. 
