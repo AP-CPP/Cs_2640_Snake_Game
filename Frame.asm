@@ -1,4 +1,7 @@
-
+# Simon Ho
+# Course CS2640
+# Date 11-14-2026
+# Final Project Frame v1.0.0
 .data
 
 newline: .asciiz "\n"
