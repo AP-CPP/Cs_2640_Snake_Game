@@ -16,7 +16,7 @@ li $t0, 0
 #column counter
 li $t1, 0
 
-columnloop:
+WallLoop:
 
 #make horizontal walls
 beq $t0, 0, makeHWall
@@ -40,14 +40,14 @@ print_char:
     syscall
 
     addi $t1, $t1, 1 #increment column counter
-    blt $t1, 17, columnloop #if column counter < 17, loop
+    blt $t1, 17, WallLoop #if column counter < 17, loop
 
     li $v0, 4 #print newline
     la $a0, newline
     syscall
 
     addi $t0, $t0, 1 #increment row counter
-    blt $t0, 15, columnloop #if row counter < 15, loop
+    blt $t0, 15, WallLoop #if row counter < 15, loop
 
     li $v0, 10 #exit program
     syscall
