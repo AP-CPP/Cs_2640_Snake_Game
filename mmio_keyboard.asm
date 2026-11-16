@@ -18,18 +18,18 @@ keyboard_input:
 	andi # Will be completed later
 	# Will add caps error checking and any other checks for MMIO 
 	
-	
-	beq $t2, 100, right
+	# Using the ascii values for aswd
+	beq $t2, 100, right 
 	beq $t2, 97, left
 	beq $t2, 119, up
 	beq $t2, 115, down
 right:
-	# Move right macro will be impleted to call here
+	# Move right macro will be implemented to call here
 left:
-	# Move left macro  will be impleted to call here
+	# Move left macro  will be implemented to call here
 up:
-	# Move up macro  will be impleted to call here
+	# Move up macro  will be implemented to call here
 down: 
-	# Move down macro  will be impleted to call here
+	# Move down macro  will be implemented to call here
 menu_return:
 # returing to main 
