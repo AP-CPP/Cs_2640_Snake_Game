@@ -10,7 +10,7 @@ scoremeg: .asciiz "Score: "
 score: .word 0
 
 .text	
-mian: 
+main: 
 	#Load score in memory
 	lw $t0, score #load the score into temporary memory
 	
