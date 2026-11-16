@@ -1,7 +1,7 @@
-# Andrew Pahomi
+# Bishop Avila, Simon Ho, Andrew Pahomi, Alexander Pedro
 # Course CS2640
 # Date 11-10-2026
-# Macro File for Final Project
+# Macro File for Final Project v1.0.0
 .macro animated_str (%str, %count, %time_delay) # Creating 3 parameters which will be taken in
 	# Time delay is inputed in milliseconds str is the var name and count is inputed as int 
     	la   $t0, %str # Moving the address from the string variable inputed into reg t0 (base address)
