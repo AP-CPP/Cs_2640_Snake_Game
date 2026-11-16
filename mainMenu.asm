@@ -56,6 +56,7 @@ customize:
 
 attribution:
 	# prints the programmers
+	animated_str(attribution_message, 1, 150)
 	j loop
 
 #other:	#placeholder
