@@ -1,5 +1,9 @@
-#Snake Score tracker:
-#WIll need to call/ or be called so will need  a macro 
+# Bishop Avila, Simon Ho, Andrew Pahomi, Alexander Pedro
+# Course CS2640
+# Date 11-10-2026
+# Score Tracker for Final Project v1.0.0
+# Snake Score tracker:
+# Will need to call/ or be called so will need  a macro 
 
 .data
 scoremeg: .asciiz "Score: "
