@@ -3,7 +3,7 @@
 # Date 11-10-2026
 # Main Ascii Menu for Final Project
 
-.include "macros.asm"
+.include "macrosProject.asm"
 .data
 menu_screen:
     .asciiz "*~~~~~~~~~~~~~S~S~S~Snake~~~~~~~~~~~~~~*\n"
@@ -17,7 +17,44 @@ menu_screen:
     .asciiz "|                                      |\n"
     .asciiz "|                                      |\n"
     .asciiz "*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*\n"
-.text
 
+invalidStr: .asciiz "Wrong input! Try again!\n"
+choiceStr: .asciiz "Please enter your choice: "
+
+
+.text
 main:
-print(menu_screen) 
+	
+loop: 
+	animated_str(menu_screen, 11, 20)
+	
+	animated_str(choiceStr, 1, 50)
+	input_int($t0)
+	
+	beq $v0, 1, start
+	beq $v0, 2, quit
+	beq $v0, 3, customize
+	beq $v0, 4, attribution
+	#beq $v0, 5, other	placeholder
+	
+	animated_str(invalidStr, 1, 150)
+	
+	j loop
+	
+start:
+	# Game start code
+	j loop
+	
+
+quit:
+	termination
+
+customize:
+	# Gets character value from user
+	j loop
+
+attribution:
+	# prints the programmers
+	j loop
+
+#other:	#placeholder
