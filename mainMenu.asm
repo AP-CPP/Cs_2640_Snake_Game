@@ -1,4 +1,4 @@
-#  Bishop Avila, Simon Ho, Andrew Pahomi, Alexander Pedro
+# Bishop Avila, Simon Ho, Andrew Pahomi, Alexander Pedro
 # Course CS2640
 # Date 11-10-2026
 # Main Ascii Menu for Final Project v1.0.0
