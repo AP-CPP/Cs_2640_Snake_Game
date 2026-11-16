@@ -1,4 +1,4 @@
-# Andrew Pahomi
+#  Bishop Avila, Simon Ho, Andrew Pahomi, Alexander Pedro
 # Course CS2640
 # Date 11-10-2026
 # Main Ascii Menu for Final Project
@@ -18,6 +18,7 @@ menu_screen:
     .asciiz "|                                      |\n"
     .asciiz "*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*\n"
 
+attribution_message: .asciiz "~~Created by Bishop Avila, Simon Ho, Andrew Pahomi (=^u^=), Alexander Pedro~~\n"
 invalidStr: .asciiz "Wrong input! Try again!\n"
 choiceStr: .asciiz "Please enter your choice: "
 
