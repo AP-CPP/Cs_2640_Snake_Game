@@ -1,4 +1,4 @@
-# Andrew Pahomi
+# Bishop Avila, Simon Ho, Andrew Pahomi, Alexander Pedro
 # Course CS2640
 # Date 11-15-2026
 # Keyboard and MMIO Link for Final Project v1.0.0
