@@ -7,7 +7,7 @@
     	la   $t0, %str # Moving the address from the string variable inputed into reg t0 (base address)
     	li    $t1, %count # Loading the number of lines needed
     
-# Will loop through the string and print out each character with the inputed time delay
+# Will loop through the string and print out each character with the inputted time delay
 next_char:
 
 	lb   $t2, 0($t0) # Loading the base address of the string into reg t2         
@@ -21,7 +21,7 @@ next_char:
 
 	li    $v0, 32   #  32 used for sleep       
 	li    $a0, %time_delay # Loads the amount of time inputed by the user in milliseconds into the argument reg
-	syscall # Pausing print / promgram
+	syscall # Pausing print / program
 
 	j     next_char # Jumping back up to the top to print any remaining char
 
